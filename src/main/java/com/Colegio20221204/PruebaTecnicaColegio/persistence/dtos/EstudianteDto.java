@@ -1,6 +1,5 @@
 package com.Colegio20221204.PruebaTecnicaColegio.persistence.dtos;
 
-import jakarta.persistence.Column;
 import lombok.*;
 
 @Setter
@@ -8,7 +7,7 @@ import lombok.*;
 @NoArgsConstructor
 @ToString
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-public class ProfesorDto {
+public class EstudianteDto {
     @EqualsAndHashCode.Include
     Long Id;
     String nombre;
